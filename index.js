@@ -6,6 +6,7 @@ const port = 3000
 let produtos = ''
 
 app.use(express.json())
+
 //Method GET
 app.get("/produtos", async (req, res) => {
     produtos = await prisma.user.findMany()

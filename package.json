@@ -15,10 +15,10 @@
   "dependencies": {
     "@prisma/client": "6.19",
     "dotenv": "^17.2.3",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "prisma": "6.19"  
   },
   "devDependencies": {
-    "@types/node": "^24.10.1",
-    "prisma": "6.19"
+    "@types/node": "^24.10.1"
   }
 }
